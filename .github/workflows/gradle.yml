@@ -29,4 +29,4 @@ jobs:
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
     - name: Build
-      run: ./gradlew setup -Xmx3G -Xms3G && ./gradlew build
+      run: ./gradlew setup && ./gradlew build
